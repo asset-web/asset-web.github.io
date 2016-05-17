@@ -1,0 +1,149 @@
+body
+{
+    font-family: 'Cantarell', arial, "lucida console", sans-serif;
+    font-size:1.1em;
+    line-height:1.5em;
+    color: #000000;
+    background:#ffffff;
+    margin:1em 1em 1em 1em;
+}
+
+img
+{
+	border:none;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	background-color: transparent;
+	margin: 0.5em 0 0;
+	font-weight: normal;
+}
+
+h1 
+{
+	font-size: 160%;
+	border-bottom: 1px dashed #006699;
+}
+
+h2
+{
+	background-color: transparent;
+	font-size: 135%;
+}
+
+h3
+{
+	font-size: 130%;
+}
+
+h4
+{
+	font-size: 115%;
+	font-weight: bold;
+}
+h5
+{
+	font-size: 105%;
+}
+h6
+{
+	font-size: 100%;
+}
+
+ul
+{ 
+	line-height: 1.5em;
+	list-style-type: square;
+	margin: 0.5em 0 0 1.5em;
+	padding: 0;
+	list-style-image: url(bullet-level-1.png);
+}
+
+ul ul
+{ 
+	line-height: 1.5em;
+	list-style-type: square;
+	margin: 0.5em 0 0 1.5em;
+	padding: 0;
+	list-style-image: url(bullet-level-2.png);
+}
+
+.author a,
+.author a:link,  
+.author a:visited,
+.author a:active 
+{
+  text-decoration: none;
+  color:#333333;
+}
+
+a,        
+a:link,   
+a:active  
+{
+	color:#006699;
+}
+
+a:visited
+{
+	color:#cc3333;
+}
+
+.author
+{
+	font-weight:bold;
+	font-size:105%;
+}
+
+#header
+{
+    min-width: 25em;
+    max-width: 35em;
+}
+
+#content
+{
+    min-width: 25em;
+    max-width: 35em;
+}
+
+#footer
+{
+	text-align:center;
+	padding-top:20px;
+    min-width: 25em;
+    max-width: 35em;
+}
+
+.conformance-icons
+{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.caption
+{
+	font-size:80%;
+}
+
+acronym
+{
+	cursor:help;
+}
+
+.discreet
+{
+	font-size:90%;
+	color:#4A4A4A;
+}
+
+th
+{
+    text-align:left;
+}
+
+.modified
+{
+    font-size:80%;
+}
