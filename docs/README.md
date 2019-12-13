@@ -40,7 +40,7 @@ Migrating static one homepage to Jekyll site to be hosted on Gituhb pages and de
 
  * Build production site
 
-		JEKYLL_ENV=production jekyll build
+		JEKYLL_ENV=production jekyll build -d docs/
 
  * Example deployment
 
