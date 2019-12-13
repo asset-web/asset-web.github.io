@@ -46,10 +46,13 @@ Not for Profit online Learning Disability/Difficulties web resource.  Targeted a
 
 ## Current projects
 
-### GWAS
-- Django
+### Django
+
+#### GWAS
+- Python
 - MySQL
 - Redis
+- NGINX
 - Docker
 - Gitlab CI
 
