@@ -46,6 +46,8 @@ Senior Systems Developer, [Research IT](http://www.bristol.ac.uk/research-it/), 
 - Bitbucket Pipelines
 - Travis CI
 - Git
+- Slack
+- ICINGA
 - Puppet (configuration management)
 
 ## Operating Systems
