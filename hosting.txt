@@ -1,1 +1,6 @@
-Github pages, last build: {{ site.time }}
+---
+path: /hosting.txt
+
+---
+
+Github pages, site last build: {{ site.time | date_to_rfc822 }}
