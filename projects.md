@@ -4,6 +4,8 @@ title: Projects
 path: /projects
 
 ---	
+*Content being updated*
+
 ## Previous projects
 
 ### Jekyll
