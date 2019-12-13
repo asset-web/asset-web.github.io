@@ -1,6 +1,6 @@
 # Tessa Alexander - asset-web.co.uk
 
-* Jeykll
+Migrating static one homepage to Jekyll site to be hosted on Gituhb pages and deployed usign Travis CI.
 
 ## Development
 
