@@ -46,3 +46,5 @@ Migrating static one homepage to Jekyll site to be hosted on Gituhb pages and de
 
 		cd _site
 		rsync -r . username@host:/webroot/
+
+ * To upgrade, run `bundle update github-pages`.
