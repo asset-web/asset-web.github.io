@@ -1,4 +1,9 @@
 language: ruby
 rvm:
   - 2.3
+
+before_install:
+  # - gem update --system
+  # - gem --version
+    - gem install bundler
 script: "JEKYLL_ENV=production bundle exec jekyll build -d docs/"
