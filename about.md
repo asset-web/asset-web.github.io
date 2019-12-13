@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About
+path: /about
+
 ---	
 Web developer with experience in the Higher Education, public sector, and Finance sesctors.
 

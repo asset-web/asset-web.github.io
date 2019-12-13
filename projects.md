@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Projects
+path: /projects
+
 ---	
 ## Previous projects
 
