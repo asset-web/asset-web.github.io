@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.5
+  - 2.5.1
 
 before_install:
   - gem --version
@@ -9,7 +9,7 @@ before_install:
   - bundler -v
   - gem install bundler -v 2.0.2
   - bundler -v
-script: "JEKYLL_ENV=production bundle exec jekyll build -d docs/ && ll && git status"
+script: "JEKYLL_ENV=production bundle exec jekyll build -d docs/ && ls && git status"
 
 deploy:
   provider: pages
