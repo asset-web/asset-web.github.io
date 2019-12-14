@@ -22,7 +22,7 @@ title: Tessa Alexander
 email: info@asset-web.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Tessa Alexander, dancer, cyclist, coder.
-baseurl: "/asset-web" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://asset-web.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: assetweb
 github_username: asset-web
