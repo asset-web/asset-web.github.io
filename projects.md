@@ -4,7 +4,6 @@ title: Projects
 permalink: /projects/
 
 ---	
-*Content being updated*
 
 ## Previous projects
 
