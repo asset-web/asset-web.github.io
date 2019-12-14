@@ -1,6 +1,6 @@
 # Tessa Alexander - asset-web.co.uk
 
-Migrating static one homepage to Jekyll site to be hosted on Gituhb pages and deployed usign Travis CI.
+Migrating static one homepage to Jekyll site to be hosted on Github pages and deployed using Travis CI.
 
 ## Development
 
@@ -25,8 +25,8 @@ Migrating static one homepage to Jekyll site to be hosted on Gituhb pages and de
 
 1. Set up development site
 
-		git clone git@github.com:asset-web/tinevanlent.be.git
-		cd tinevanlent.be/
+		git clone git@github.com:asset-web/asset-web.git
+		cd asset-web/
 
 ### Example Jekyll commands
 
@@ -34,7 +34,7 @@ Migrating static one homepage to Jekyll site to be hosted on Gituhb pages and de
 
 		jekyll new .
 
- * Serve develpoment site
+ * Serve development site
 
 		bundle exec jekyll serve
 
