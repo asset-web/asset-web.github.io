@@ -28,7 +28,7 @@ Migrating static one homepage to Jekyll site to be hosted on Github pages and de
 		git clone git@github.com:asset-web/asset-web.git
 		cd asset-web/
 
-### Example Jekyll commands
+### Example Jekyll development commands
 
  * Create new site with default theme
 
@@ -38,13 +38,8 @@ Migrating static one homepage to Jekyll site to be hosted on Github pages and de
 
 		bundle exec jekyll serve
 
- * Build production site
-
-		JEKYLL_ENV=production jekyll build -d docs/
-
- * Example deployment
-
-		cd _site
-		rsync -r . username@host:/webroot/
-
  * To upgrade, run `bundle update github-pages`.
+
+### Build and deployment
+
+See `.travis.yml`
