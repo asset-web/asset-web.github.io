@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-path: /projects
+permalink: /projects/
 
 ---	
 *Content being updated*
