@@ -40,6 +40,19 @@ Migrating static one homepage to Jekyll site to be hosted on Github pages and de
 
  * To upgrade, run `bundle update github-pages`.
 
-### Build and deployment
+### Build, test and deploy
 
-See `.travis.yml`
+Travis CI automates running `script/buildtest` script which generates the site using Jekyll static site generator.  HTML validation and link checking is run against this output. Upon success the static site is deployed to a remote server.  The Github pages deployment provider is then used as a secondary hosting location.
+
+Full details can be seen in `.travis.yml`.
+
+#### Travis CI deployment secrets
+
+SSH keys are used to perfrom rsync updates on a remote server.  The private SSH key needs to be named `private key` and encrypted and stored in the repository.
+
+	travis encrypt-file private_key --add
+
+Two secure variables for the SSH user name and remote path need to be stored in the repo, named REMOTE_USER and REMOTE_PATH respectively.  For example:
+
+	travis encrypt REMOTE_USER=username --add
+	travis encrypt REMOTE_PATH=/path/to/webroot/ --add
