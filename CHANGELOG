@@ -1,0 +1,18 @@
+# CHANGELOG
+
+## [1.0.0] 2019-12-22
+- #12 Add change log and versioning
+- #9 Restrict primary deployment to pull requests only
+
+## 2019-12-21
+### Added
+- #7 Add testing to Travis CI build
+- #6 Deploy to primary hosting location to Travis CI
+
+## 2019-12-14
+### Added
+- #3 Publish using github pages
+- #2 Add Travis CI deployment
+- #1 Update project page content
+
+See https://github.com/asset-web/asset-web.github.io/commits/master
