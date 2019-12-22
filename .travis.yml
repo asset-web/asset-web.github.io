@@ -6,8 +6,8 @@ before_install:
   - gem install bundler -v 2.0.2
 script: ./script/buildtest
 after_success:
-  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then ./script/deploy; fi'
-  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then echo "Not a pull request, skipping deployment."; fi'
+  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then ./script/deploy; fi
+  - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then echo "Not a pull request, skipping deployment."; fi
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
