@@ -3,4 +3,4 @@ path: /hosting.txt
 
 ---
 
-Github pages, site last build: {{ site.time | date_to_rfc822 }}
+Jeykll site, version {{ site.assetweb_version }}, last built: {{ site.time | date_to_rfc822 }}.

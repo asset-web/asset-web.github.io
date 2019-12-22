@@ -62,3 +62,5 @@ exclude:
   - vendor/ruby/
   - script/
   - private_key
+
+assetweb_version: 1.0.0
