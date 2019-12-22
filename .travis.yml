@@ -6,10 +6,8 @@ before_install:
   - gem install bundler -v 2.0.2
 script: ./script/buildtest
 after_success:
-  on: master
-    - openssl aes-256-cbc -K $encrypted_07a038cb33f0_key -iv $encrypted_07a038cb33f0_iv -in private_key.enc -out private_key -d
-    - chmod go-rwx private_key
-    - rsync --exclude .well-known --delete-after -v -r -e "ssh -i private_key" _site/ $REMOTE_USER@assetweb.co.uk:$REMOTE_PATH
+  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then ./script/deploy; fi'
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then echo "Not a pull request, skipping deployment."; fi'
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
