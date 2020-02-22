@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 
 ---	
-Web developer with experience in the Higher Education, public sector, and Finance sesctors.
+Web developer with experience in the Higher Education, public sector, and Finance sectors.
 
 ## Employment
 Senior Systems Developer, [Research IT](http://www.bristol.ac.uk/research-it/), [University of Bristol](http://www.bristol.ac.uk)
@@ -15,7 +15,7 @@ Senior Systems Developer, [Research IT](http://www.bristol.ac.uk/research-it/), 
 - test driven development
 - reproducibility
 - accessibility
-- internationalisaiton
+- internationalisation
 
 ## Languages & frameworks
 - Python
@@ -26,8 +26,9 @@ Senior Systems Developer, [Research IT](http://www.bristol.ac.uk/research-it/), 
 - JavaScript
 - CSS
 - Bootstrap
+- Go
 
-## Webservers
+## Web servers
 - NGINX
 - Apache
 
@@ -47,8 +48,8 @@ Senior Systems Developer, [Research IT](http://www.bristol.ac.uk/research-it/), 
 - Travis CI
 - Git
 - Slack
-- ICINGA
 - Puppet (configuration management)
+- ICINGA
 
 ## Operating Systems
 - Centos
