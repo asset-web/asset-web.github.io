@@ -2,6 +2,8 @@
 
 Migrating static one homepage to Jekyll site to be hosted on Github pages and deployed using Travis CI.
 
+[![Build Status](https://travis-ci.org/asset-web/asset-web.github.io.svg?branch=master)](https://travis-ci.org/asset-web/asset-web.github.io)
+
 ## Development
 
 ### Linux set up
