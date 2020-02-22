@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [1.1.0] 2020-02-22
+- #17 Update dependencies
+- #16 Update project page
+
 ## [1.0.0] 2019-12-22
 - #12 Add change log and versioning
 - #9 Restrict primary deployment to pull requests only
