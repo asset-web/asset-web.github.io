@@ -30,6 +30,18 @@ Migrating static one homepage to Jekyll site to be hosted on Github pages and de
 		git clone git@github.com:asset-web/asset-web.git
 		cd asset-web/
 
+
+### OS X set up
+
+Prerequisite homebrew is installed
+
+	brew install ruby
+	echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+	gem install --user-install bundler jekyll
+	echo 'export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"' >> ~/.bash_profile
+
+
+
 ### Example Jekyll development commands
 
  * Create new site with default theme
