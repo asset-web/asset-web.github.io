@@ -41,7 +41,6 @@ Prerequisite homebrew is installed
 	echo 'export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"' >> ~/.bash_profile
 
 
-
 ### Example Jekyll development commands
 
  * Create new site with default theme
