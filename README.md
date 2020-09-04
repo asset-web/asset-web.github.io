@@ -33,7 +33,7 @@ Migrating static one homepage to Jekyll site to be hosted on Github pages and de
 
 ### OS X set up
 
-Prerequisite homebrew is installed
+Prerequisite homebrew is installed, NB: Replace 2.7.0 with your version
 
 	brew install ruby
 	echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
