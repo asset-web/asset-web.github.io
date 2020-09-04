@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.5.0] 2020-09-04
+### Changed
+- #34 Update gems
+- #32 Bug fix htmlproofer handling LinkedIn response code
+
 ## [1.4.1] 2020-08-08
 ### Changed
 - #30 Add LinkedIn icon
@@ -29,7 +34,7 @@
 
 ## [1.0.0] 2019-12-22
 ### Added
-- #12 Add change log and versioning
+- #12 Add change log and version information
 ### Changed
 - #9 Restrict primary deployment to pull requests only
 
