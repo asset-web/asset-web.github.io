@@ -22,7 +22,7 @@ Migrating static one homepage to Jekyll site to be hosted on Github pages and de
 1. Install Jekyll & Bundler
 
 		# Check version requirements here https://pages.github.com/versions/
-		gem install jekyll --version 3.8.5
+		gem install jekyll --version 3.9.0
 		gem install bundler
 
 1. Set up development site
