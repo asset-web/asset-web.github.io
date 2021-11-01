@@ -3,6 +3,7 @@ rvm:
   - 2.7.4
 
 before_install:
+  - sudo apt-get -y install libcurl4-openssl-dev
   - gem install bundler:2.2.30
 script: ./script/buildtest
 after_success:
@@ -17,8 +18,8 @@ addons:
   ssh_known_hosts: assetweb.co.uk
   apt:
     update: true
-    packages:
-    - libcurl4-openssl-dev
+    # packages:
+    # - libcurl4-openssl-dev
 cache: bundler
 sudo: false
 deploy:
