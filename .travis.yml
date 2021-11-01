@@ -16,6 +16,7 @@ env:
 addons:
   ssh_known_hosts: assetweb.co.uk
   apt:
+    update: true
     packages:
     - libcurl4-openssl-dev
 cache: bundler
