@@ -9,6 +9,9 @@ Web developer with experience in the Higher Education, public sector, and Financ
 ## Employment
 Senior Systems Developer, [Research IT](http://www.bristol.ac.uk/research-it/), [University of Bristol](http://www.bristol.ac.uk)
 
+## Interview by TechSPARK
+[Interview by Renée Jacobs](https://www.techspark.co/blog/2020/10/22/profile-tessa-alexander/)
+
 ## Interests
 - opensource
 - continuous integration
