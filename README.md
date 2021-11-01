@@ -2,9 +2,17 @@
 
 Migrating static one homepage to Jekyll site to be hosted on Github pages and deployed using Travis CI.
 
-[![Build Status](https://travis-ci.com/asset-web/asset-web.github.io.svg?branch=master)](https://travis-ci.com/asset-web/asset-web.github.io)
+[![Build Status](https://app.travis-ci.com/asset-web/asset-web.github.io.svg?branch=master)](https://app.travis-ci.com/asset-web/asset-web.github.io)
 
 ## Development
+
+### Docker set up
+
+Run tests locally
+```
+docker build . -t web
+docker run web
+```
 
 ### Linux set up
 
