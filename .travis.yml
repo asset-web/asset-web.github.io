@@ -3,9 +3,6 @@ services:
 
 before_install: docker build . -t web
 script: docker run web
-after_success:
-  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then ./script/deploy; fi
-  - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then echo "Not a pull request, skipping deployment."; fi
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
