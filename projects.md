@@ -17,7 +17,16 @@ _Research project_
 - Docker/Docker Compose
 - Gitlab CI
 
-*2019 - ongoing*
+*2014 - 2018 & February 2020 - on going*
+
+### Check the Map redevelopment - in progress
+Redevelop site and migrate from Plone to Django.
+- [open source](https://github.com/asset-web/check_the_map)
+- not for profit
+
+## Previous projects
+
+*2019 - 2022*
 
 ### [TeMMPo](https://temmpo.org.uk)
 _Research project_
@@ -32,27 +41,6 @@ _Research project_
 - Travis CI
 - Vagrant
 - Docker
-
-*2014 - 2018 & February 2020 - on going*
-
-### [LeDeR migration project](http://www.bristol.ac.uk/sps/leder/)
-_Research project_
-
-Part of a team packaging a suite of applications to be handed over to the NHS.
-- Docker
-- Docker Compose
-- Bitbucket Pipelines
-- Jenkins CI
-- Maven
-
-*2019 - on going*
-
-### Check the Map redevelopment - in progress
-Redevelop site and migrate from Plone to Django.
-- [open source](https://github.com/asset-web/check_the_map)
-- not for profit
-
-## Previous projects
 
 ### [JM Achineku](https://jmachineku.com/)
 Resurrected this lost website from static snapshots.
@@ -104,21 +92,21 @@ An AHRC Oxford University Funded Research Project impact WordPress site at the O
 The second iteration of this e-commerce site.  Also provided end of life archival and subsequent content retrieval services when this small business website was not required.
 - WordPress
 
+*2012 - ongoing*
+
 ### [Grenada Lifestyle Centre](https://grenadalifestylecenter.gd)
 Not for profit website supporting a community group in Grenada.
 - WordPress
 
 *2010 - ongoing (preservation period)*
 
-### [Check the Map](http://www.checkthemap.org)
-Not for Profit Learning Disability/Difficulties web resource.  Targeted at parents, teachers and anyone working in Special Educational Needs. 
-
-*2000 - ongoing*
 
 ## Past Projects
 
+*2019 - on going*
+
 ### BOS
-Previously part of a development team that redeveloped an online survey tool.
+Previously part of a development team that redeveloped an online survey tool used primarily in Higher Education.
 - Python/Django
 - PostgreSQL
 - Cassandra
@@ -129,3 +117,18 @@ Previously part of a development team that redeveloped an online survey tool.
 - Jenkins CI
 
 *2012 - 2017*
+
+### [LeDeR migration project](http://www.bristol.ac.uk/sps/leder/)
+_Research project_
+
+Part of a team packaging a suite of applications to be handed over to the NHS.
+- Docker
+- Docker Compose
+- Bitbucket Pipelines
+- Jenkins CI
+- Maven
+
+### [Check the Map](http://www.checkthemap.org)
+Not for Profit Learning Disability/Difficulties web resource.  Targeted at parents, teachers and anyone working in Special Educational Needs. 
+
+*2000 - 2020 currently in archival mode*
