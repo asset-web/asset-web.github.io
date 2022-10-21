@@ -14,6 +14,12 @@ docker build . -t web
 docker run web
 ```
 
+```
+docker compose up -d
+docker compose exec web bundle update --bundler
+docker compose exec web bundle update jekyll
+```
+
 ### Linux set up
 
 1. Install Ruby
