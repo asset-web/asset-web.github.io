@@ -14,6 +14,13 @@ docker build . -t web
 docker run web
 ```
 
+or
+
+```
+docker compose build
+docker compose up -d 
+docker compose exec web /src/script/buildtest
+
 ```
 docker compose up -d
 docker compose exec web bundle update --bundler
