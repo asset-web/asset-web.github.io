@@ -1,9 +1,9 @@
 name: Build and test static site
 
 on:
-  push
-  pull_requests
-  workflow_dispatch
+  push:
+  pull_requests:
+  workflow_dispatch:
 
 env:
   TEST_TAG: assetweb/assetweb-jekyll:test
