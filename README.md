@@ -2,65 +2,28 @@
 
 Migrating static one homepage to Jekyll site to be hosted on Github pages and deployed using Travis CI.
 
-[![Build Status](https://app.travis-ci.com/asset-web/asset-web.github.io.svg?branch=master)](https://app.travis-ci.com/asset-web/asset-web.github.io)
+[![Build Status](https://app.travis-ci.com/asset-web/asset-web.github.io.svg?branch=master)](https://app.travis-ci.com/asset-web/asset-web.github.io) 
 
 ## Development
 
-### Docker set up
+Set up development site
 
-Run tests locally
-```
-docker build . -t web
-docker run web
-```
+	git clone git@github.com:asset-web/asset-web.git
+	cd asset-web/
 
-or
+NB: Requires docker and docker compose to be installed locally
 
 ```
 docker compose build
 docker compose up -d 
 docker compose exec web /src/script/buildtest
+```
 
 ```
 docker compose up -d
 docker compose exec web bundle update --bundler
 docker compose exec web bundle update jekyll
 ```
-
-### Linux set up
-
-1. Install Ruby
-
-		sudo apt-get install ruby-full build-essential zlib1g-dev
-
-1. Configure Gem location
-
-		echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
-		echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-		echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-		source ~/.bashrc
-
-1. Install Jekyll & Bundler
-
-		# Check version requirements here https://pages.github.com/versions/
-		gem install jekyll --version 3.9.0
-		gem install bundler
-
-1. Set up development site
-
-		git clone git@github.com:asset-web/asset-web.git
-		cd asset-web/
-
-
-### OS X set up
-
-Prerequisite homebrew is installed, NB: Replace 2.7.0 with your version
-
-	brew install ruby
-	echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
-	gem install --user-install bundler jekyll
-	echo 'export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"' >> ~/.bash_profile
-
 
 ### Example Jekyll development commands
 

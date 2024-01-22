@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 
 ---	
-Web developer with experience in the Higher Education, public sector, and Finance sectors.
+Web developer with experience in the Higher Education, Public, and Finance sectors.
 
 ## Employment
 Research Software Engineer, [Research IT](http://www.bristol.ac.uk/research-it/), [University of Bristol](http://www.bristol.ac.uk)
