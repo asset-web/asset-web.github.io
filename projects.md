@@ -19,15 +19,6 @@ _Research project_
 
 *2014 - 2018 & February 2020 - on going*
 
-### Check the Map redevelopment - in progress
-Redevelop site and migrate from Plone to Django.
-- [open source](https://github.com/asset-web/check_the_map)
-- not for profit
-
-## Previous projects
-
-*2019 - 2022*
-
 ### [TeMMPo](https://temmpo.org.uk)
 _Research project_
 
@@ -42,12 +33,9 @@ _Research project_
 - Vagrant
 - Docker
 
-### [JM Achineku](https://jmachineku.com/)
-Resurrected this lost website from static snapshots.
-- Internet Archive
-- WordPress
+*2015 - on going*
 
-*2020 - ongoing*
+## Previous projects
 
 ### [Asset Web](https://assetweb.co.uk)
 Migrated from a static one-page site.
@@ -73,13 +61,6 @@ Provided **web consultancy** and **supported WordPress hosting** for a research 
 
 *2018 - ongoing*
 
-### [SCIPS - Strategies for Creating Inclusive Programmes of Study](https://scips.worc.ac.uk)
-_Research project_
-
-A research project in the site preservation maintenance period. Originally an EU funded project with a project site and 6 web resources in Bulgaria, France, Greece, Poland, Romania, and the UK. The UK resource is now maintained by the [University of Worcester](https://www.worcester.ac.uk).  Originally **7 multilingual sites** built in **Plone CMS** that were subsequently all migrated to **Drupal** between 2010-2016.  With separate post-project funding, the UK site was migrated to **WordPress** in 2016.  This research project launched an additional 7 ETTAD and 7 QATRAIN2 related research project sites, between 2008-2014.
-
-*2004 - ongoing*
-
 ### [TRANSPORTATION TRANSFORMATION: MIGRATION, TELEPORTATION, RAILWAYS](https://transportation-transformation.co.uk)
 _Research project_
 
@@ -103,7 +84,19 @@ Not for profit website supporting a community group in Grenada.
 
 ## Past Projects
 
-*2019 - on going*
+### SCIPS - Strategies for Creating Inclusive Programmes of Study
+_Research project_
+
+A research project in the site preservation maintenance period. Originally an EU funded project with a project site and 6 web resources in Bulgaria, France, Greece, Poland, Romania, and the UK. The UK resource is now maintained by the [University of Worcester](https://www.worcester.ac.uk).  Originally **7 multilingual sites** built in **Plone CMS** that were subsequently all migrated to **Drupal** between 2010-2016.  With separate post-project funding, the UK site was migrated to **WordPress** in 2016.  This research project launched an additional 7 ETTAD and 7 QATRAIN2 related research project sites, between 2008-2014.
+
+*2004 - 2023*
+
+### JM Achineku
+Resurrected this lost website from static snapshots.
+- Internet Archive
+- WordPress
+
+*2020 - 2023*
 
 ### BOS
 Previously part of a development team that redeveloped an online survey tool used primarily in Higher Education.
@@ -118,7 +111,7 @@ Previously part of a development team that redeveloped an online survey tool use
 
 *2012 - 2017*
 
-### [LeDeR migration project](http://www.bristol.ac.uk/sps/leder/)
+### [LeDeR migration project](https://www.bristol.ac.uk/sps/leder/)
 _Research project_
 
 Part of a team packaging a suite of applications to be handed over to the NHS.
@@ -128,7 +121,7 @@ Part of a team packaging a suite of applications to be handed over to the NHS.
 - Jenkins CI
 - Maven
 
-### [Check the Map](http://www.checkthemap.org)
+### [Check the Map](https://www.checkthemap.org)
 Not for Profit Learning Disability/Difficulties web resource.  Targeted at parents, teachers and anyone working in Special Educational Needs. 
 
 *2000 - 2020 currently in archival mode*
