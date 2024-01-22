@@ -1,0 +1,50 @@
+name: Build and test static site
+
+on:
+  push:
+  pull_requests:
+  workflow_dispatch:
+
+env:
+  TEST_TAG: assetweb/assetweb-jekyll:test
+  LATEST_TAG: assetweb/assetweb-jekyll:latest
+
+jobs:
+  docker:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Build and export to Docker
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          load: true
+          tags: ${{ env.TEST_TAG }}
+      - name: Test
+        run: |
+          docker run --rm ${{ env.TEST_TAG }}
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        if: ${{ ! startsWith(github.ref, 'refs/heads/master') }}
+        with:
+          context: .
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: ${{ env.LATEST_TAG }}
+      - name: Archive static files
+        uses: actions/upload-artifact@v4
+        if: ${{ ! startsWith(github.ref, 'refs/heads/master') }}
+        with:
+          name: jekyll-static-output
+          path: _site
+          retention-days: 90
