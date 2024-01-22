@@ -10,7 +10,7 @@ env:
   LATEST_TAG: assetweb/assetweb-jekyll:latest
 
 jobs:
-  docker:
+  build:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
