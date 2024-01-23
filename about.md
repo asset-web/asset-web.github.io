@@ -7,7 +7,7 @@ permalink: /about/
 Web developer with experience in the Higher Education, Public, and Finance sectors.
 
 ## Employment
-Research Software Engineer, [Research IT](http://www.bristol.ac.uk/research-it/), [University of Bristol](http://www.bristol.ac.uk)
+Research Software Engineer, [Research IT](https://www.bristol.ac.uk/research-it/), [University of Bristol](https://www.bristol.ac.uk)
 
 ## Interview by TechSPARK
 [Interview by Renée Jacobs](https://www.techspark.co/blog/2020/10/22/profile-tessa-alexander/)

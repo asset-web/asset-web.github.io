@@ -1,6 +1,11 @@
 # CHANGELOG
 
-## [1.7.0] 2024-01-202
+## [1.7.1] 2024-01-20
+### Changed
+- Update content
+- Add GitHub action
+
+## [1.7.0] 2024-01-20
 ### Changed
 - Content update
 - Update gems

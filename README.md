@@ -13,10 +13,16 @@ Set up development site
 
 NB: Requires docker and docker compose to be installed locally
 
+Run tests locally
+```
+docker build . -t web
+docker run --rm web
+```
+
 ```
 docker compose build
 docker compose up -d 
-docker compose exec web /src/script/buildtest
+docker compose exec web /src/script/buildtest  # Run tests locally
 ```
 
 ```
