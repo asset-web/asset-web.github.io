@@ -50,7 +50,7 @@ Migrated from a static one-page site.
 *2020 - ongoing*
 
 ### [Tine Van lent](https://tinevanlent.be)
-Migrated from a bespoke PHP website using a custom template system.
+Migrated from a bespoke PHP website using a custom template system to using a static site generator.
 - Jekyll
 - Markdown
 - Travis CI
