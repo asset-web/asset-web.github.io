@@ -67,4 +67,4 @@ exclude:
   - script/
   - private_key
 
-assetweb_version: 1.7.0
+assetweb_version: 1.7.1
