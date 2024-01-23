@@ -14,6 +14,7 @@ _Research project_
 - MySQL
 - Redis
 - NGINX
+- Goaccess
 - Docker/Docker Compose
 - Gitlab CI
 
@@ -27,9 +28,10 @@ _Research project_
 - MySQL
 - Apache
 - Redis
-- Centos
+- ClamAV
+- CentOS
 - Jenkins CI
-- Travis CI
+- GitHub actions
 - Vagrant
 - Docker
 
@@ -41,7 +43,8 @@ _Research project_
 Migrated from a static one-page site.
 - Jekyll
 - Markdown
-- Github pages
+- GitHub pages
+- GitHub actions
 - [Opensource](https://github.com/asset-web/asset-web.github.io)
 
 *2020 - ongoing*
