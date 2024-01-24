@@ -1,0 +1,18 @@
+Remaking Britain - in progress
+- Kubernetes
+- Django/Python
+- NGINX
+- Wagtail
+- ??
+
+Fam films
+CJ
+3 Kays
+
+Brigstow - used a graphic designer
+Climate archive - CI/CD and testing only
+Email archive - CI/CD and testing only
+
+Arima - NDA, Google Cloud, Django, MySQL, (react etc,), developed in a group, ML 
+
+UK LLC ??

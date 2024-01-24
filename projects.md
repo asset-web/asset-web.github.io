@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: projects
 title: Projects
 permalink: /projects/
-
 ---
 
 ## Current projects
@@ -43,6 +42,7 @@ _Research project_
 Migrated from a static one-page site.
 - Jekyll
 - Markdown
+- Docker
 - GitHub pages
 - GitHub actions
 - [Opensource](https://github.com/asset-web/asset-web.github.io)
@@ -53,7 +53,8 @@ Migrated from a static one-page site.
 Migrated from a bespoke PHP website using a custom template system to using a static site generator.
 - Jekyll
 - Markdown
-- Travis CI
+- Docker
+- Digital Ocean Apps
 
 *2020 - ongoing*
 
@@ -91,6 +92,7 @@ Not for profit website supporting a community group in Grenada.
 _Research project_
 
 A research project in the site preservation maintenance period. Originally an EU funded project with a project site and 6 web resources in Bulgaria, France, Greece, Poland, Romania, and the UK. The UK resource is now maintained by the [University of Worcester](https://www.worcester.ac.uk).  Originally **7 multilingual sites** built in **Plone CMS** that were subsequently all migrated to **Drupal** between 2010-2016.  With separate post-project funding, the UK site was migrated to **WordPress** in 2016.  This research project launched an additional 7 ETTAD and 7 QATRAIN2 related research project sites, between 2008-2014.
+- WordPress
 
 *2004 - 2023*
 
@@ -126,5 +128,6 @@ Part of a team packaging a suite of applications to be handed over to the NHS.
 
 ### [Check the Map](https://www.checkthemap.org)
 Not for Profit Learning Disability/Difficulties web resource.  Targeted at parents, teachers and anyone working in Special Educational Needs. 
+- Python
 
 *2000 - 2020 currently in archival mode*

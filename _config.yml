@@ -45,6 +45,12 @@ header_pages:
   - about.md
   - projects.md
 
+collections:
+  projects:
+    sort_by: start
+
+  # TODO:L add default: research_project: True archived: False
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -67,4 +73,4 @@ exclude:
   - script/
   - private_key
 
-assetweb_version: 1.7.1
+assetweb_version: 1.7.2
