@@ -115,19 +115,3 @@ Previously part of a development team that redeveloped an online survey tool use
 - Jenkins CI
 
 *2012 - 2017*
-
-### [LeDeR migration project](https://www.bristol.ac.uk/sps/leder/)
-_Research project_
-
-Part of a team packaging a suite of applications to be handed over to the NHS.
-- Docker
-- Docker Compose
-- Bitbucket Pipelines
-- Jenkins CI
-- Maven
-
-### [Check the Map](https://www.checkthemap.org)
-Not for Profit Learning Disability/Difficulties web resource.  Targeted at parents, teachers and anyone working in Special Educational Needs. 
-- Python
-
-*2000 - 2020 currently in archival mode*
