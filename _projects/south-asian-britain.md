@@ -1,14 +1,15 @@
 ---
 name: South Asian Britain
-url: 
-role: Web developer and DevOps engineer
+project_url: 
+role: web developer and devops engineer
 start: 2023
 end: on going
 date_description: 
 research_project: True
 archived: False
 technologies: 
-- Django/Python
+- Python
+- Django
 - Wagtail
 - NGINX
 - Kubernetes
