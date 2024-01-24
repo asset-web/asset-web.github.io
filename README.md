@@ -42,8 +42,6 @@ docker compose exec web bundle update jekyll
 
 		bundle exec jekyll serve
 
- * To upgrade, run `bundle update github-pages`.
-
 ### Build, test and deploy
 
-CI/CD jobs automate running the `script/buildtest` script which generates the site using Jekyll static site generator.  HTML validation and link checking is run against this output. Upon successfully merging a pull requests/commits to `master` the static website is deployed to a remote server hosted on an app on Digital Ocean.  GitHub pages is then used as a secondary deployment target for all master commits.
+CI/CD jobs automate running the `script/buildtest` script which generates the site using Jekyll static site generator.  HTML validation and link checking is run against this output. Upon successfully merging a pull requests/commits to `master` the static website is deployed to a remote server hosted on an app on Digital Ocean.
