@@ -1,6 +1,45 @@
 ---
 layout: page
+
 ---
 {{ content }}
 
-{% comment %} Loop through current|past projects {% endcomment %}
+{% for project in site.projects %}
+    <article>
+        {% if project.url %}
+            <h2>{{ project.name }}</h2>
+        {% else %}
+            <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
+        {% endif %}
+        <p>A {{ project.role }}{% if project.research_project %} in a <em>research project</em>.{% endif %}</p>
+        {{ project.content | markdownify }}
+        <ul>
+            <li>
+                {% if project.open_source %}
+                    {% if project.code_repo_url %}
+                        <i class="fa fa-code" aria-hidden="true"> <a href="{{ project.code_repo_url }}">Opensource</a>
+                    {% else %}
+                        <i class="fa fa-code" aria-hidden="true"></i> Opensource
+                    {% endif %}
+                {% endif %}
+            </li>
+            {% for technology in project.technologies %}
+                <li>{{ technology }}</li>
+            {% endfor %}
+        </ul>
+        <p>
+            {% if project.date_description %}
+                {{ project.date_description }}
+            {% else %}
+                {{ project.start }} &dash; {{ project.end }}
+            {% endif %}
+        </p>
+    </article>
+{% endfor %}
+
+{% comment %}
+archived: False
+status: development
+thumbnail_url: 
+Consider timeline type layouts: ref: https://www.w3schools.com/howto/howto_css_timeline.asp 
+{% endcomment %}

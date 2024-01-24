@@ -13,5 +13,6 @@ open_source: True
 code_repo_url: 
 status: development|production|past
 thumbnail_url: 
+published: False
 ---
 Example project description
