@@ -1,6 +1,6 @@
 ---
 name: Example project
-project_url: example.org
+project_url: 
 role: web developer and devops engineer
 start: YYYY
 end: YYYY | ongoing

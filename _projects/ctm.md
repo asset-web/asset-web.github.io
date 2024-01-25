@@ -12,7 +12,7 @@ technologies:
 - Plone CMS
 - Linux
 open_source: True
-code_repo_url: 
+code_repo_url: https://github.com/asset-web/check_the_map
 status: development
 thumbnail_url: 
 ---
