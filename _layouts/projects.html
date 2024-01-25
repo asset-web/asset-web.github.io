@@ -8,9 +8,9 @@ layout: page
     <article>
         {% if project.thumbnail_url %}
             {% if project.project_url %}
-                <a href="{{ project.project_url }}" title="External website - {{ project.name }}"><img src="{{ site.baseurl }}{{ project.thumbnail_url }}" alt="Screenshot" style="float:right;width:150px;margin-left:3em;"></a>
+                <a href="{{ project.project_url }}" title="External website - {{ project.name }}"><img src="{{ site.baseurl }}{{ project.thumbnail_url }}" alt="Screenshot" style="float:right;width:200px;margin-left:3em;"></a>
             {% else %}
-                <img src="{{ site.baseurl }}{{ project.thumbnail_url }}" alt="Screenshot" style="float:right;width:150px;margin-left:3em;">
+                <img src="{{ site.baseurl }}{{ project.thumbnail_url }}" alt="Screenshot" style="float:right;width:200px;margin-left:3em;">
             {%endif %}
         {% endif %}
         <h2>{% if project.archived %}<i class="fa fa-archive" aria-hidden="true" title="Archived project"></i>{% endif %}
@@ -22,6 +22,7 @@ layout: page
         </h2>
         <p>A {{ project.role }}{% if project.research_project %} in a <em>research project</em>{% endif %}.</p>
         {{ project.content | markdownify }}
+        <h3>Technologies</h3>
         <ul>
             {% if project.open_source %}
                 <li>
