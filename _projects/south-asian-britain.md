@@ -3,7 +3,7 @@ name: South Asian Britain
 project_url: 
 role: web developer and devops engineer
 start: 2023
-end: on going
+end: in development
 date_description: 
 research_project: True
 archived: False

@@ -15,7 +15,7 @@ technologies:
 open_source: True
 code_repo_url: https://github.com/asset-web/asset-web.github.io
 status: production
-thumbnail_url: 
+thumbnail_url: /assets/assetweb.png
 published: True
 ---
 Migrated from a static one-page site.

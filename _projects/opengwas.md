@@ -1,35 +1,25 @@
 ---
-name: opengwas
+name: IEU open GWAS project
 project_url: https://gwas.mrcieu.ac.uk
 role: web developer and devops engineer
 start: 2014
-end:  2018 & February 2020 - ongoing
+end: ongoing
 date_description: 
 research_project: True
 archived: False
 technologies: 
-- Python/Django
+- Python
+- Django
 - MySQL
 - Redis
 - NGINX
 - Goaccess
 - Docker/Docker Compose
 - Gitlab CI
-open_source: True
+open_source: False
 code_repo_url: 
-status: development|production|past
-thumbnail_url: 
-published: False
+status: production
+thumbnail_url: /assets/gwas.png
+published: True
 ---
-<a href="https://gwas.mrcieu.ac.uk"><abbr title="Integrative Epidemiology Unit">IEU</abbr> Open<abbr title="Genome-wide association studies">GWAS</abbr> database</a>
-
-<!-- 
-
-### 
-_Research project_
-
-
-
-*2014 - 2018 & February 2020 - on going*
-
- -->
+<a href="https://gwas.mrcieu.ac.uk"><abbr title="Integrative Epidemiology Unit">IEU</abbr> open<abbr title="Genome-wide association studies">GWAS</abbr> project.</a>

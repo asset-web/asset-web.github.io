@@ -8,7 +8,8 @@ date_description:
 research_project: True
 archived: False
 technologies: 
-- Python/Django
+- Python
+- Django
 - MySQL
 - Apache
 - Redis
@@ -21,7 +22,7 @@ technologies:
 open_source: True
 code_repo_url: https://github.com/MRCIEU/temmpo
 status: production
-thumbnail_url: 
+thumbnail_url: /assets/temmpo-sankey.png
 published: True
 ---
 TeMMPo is a web-based tool to enable researchers to identify the quantity of literature suggesting specific mechanisms between an exposure and outcome.
