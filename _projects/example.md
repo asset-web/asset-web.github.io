@@ -1,14 +1,15 @@
 ---
 name: Example project
 project_url: example.org
-role: Developer
+role: web developer and devops engineer
 start: YYYY
 end: YYYY | ongoing
 date_description: 
 research_project: True
 archived: False
 technologies: 
-# see: https://en.wikipedia.org/wiki/YAML#Basic_components for examples of lists etc
+- Docker
+- Python
 open_source: True
 code_repo_url: 
 status: development|production|past
