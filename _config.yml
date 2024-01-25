@@ -17,16 +17,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 title: Tessa Alexander
 email: info@asset-web.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Dancer, cyclist, and opensource coder.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://assetweb.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: assetweb
-github_username: asset-web
-linkedin_username: assetweb
 
 # Build settings
 theme: minima
@@ -38,12 +34,28 @@ lang: en
 
 google_analytics: UA-4418195-32
 
-# minima:
-#   skin: dark
+minima:
+  date_format: "%d %M %Y"
+  skin: dark
+  # skin: solarized-dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/asset-web" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/assetweb/" }
+    - { platform: twitter, user_url: "https://twitter.com/assetweb" }
+
+author:
+  name: Tessa Alexander
+  email: "info@asset-web.co.uk"
 
 header_pages:
   - about.md
   - projects.md
+
+collections:
+  projects:
+    sort_by: start
+
+  # TODO:L add default: research_project: True archived: False
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -67,4 +79,4 @@ exclude:
   - script/
   - private_key
 
-assetweb_version: 1.7.1
+assetweb_version: 1.7.2

@@ -1,0 +1,55 @@
+---
+layout: page
+
+---
+{{ content }}
+
+{% for project in site.projects reversed %}
+    <article>
+        {% if project.thumbnail_url_prefix %}
+            {% if project.project_url %}
+                <a href="{{ project.project_url }}" title="External website - {{ project.name }}">{% include image.html %}</a>
+            {% else %}
+                {% include image.html %}
+            {%endif %}
+        {% endif %}
+
+        <h2>{% if project.archived %}<i class="fa fa-archive" aria-hidden="true" title="Archived project"></i>{% endif %}
+            {% if project.project_url %}
+                <a href="{{ project.project_url }}" title="External website - {{ project.name }}">{{ project.name }}</a>
+            {% else %}
+                {{ project.name }}
+            {% endif %}
+        </h2>
+        <p>A {{ project.role }}{% if project.research_project %} in a <em>research project</em>{% endif %}.</p>
+        {{ project.content | markdownify }}
+        <h3>Technologies</h3>
+        <ul>
+            {% if project.open_source %}
+                <li>
+                    {% if project.code_repo_url %}
+                        <i class="fa fa-code" aria-hidden="true"></i> <a href="{{ project.code_repo_url }}" title="External link">Opensource code repository</a>
+                    {% else %}
+                        <i class="fa fa-code" aria-hidden="true"></i> Opensource
+                    {% endif %}
+                </li>
+            {% endif %}
+            {% for technology in project.technologies %}
+                <li>{{ technology }}</li>
+            {% endfor %}
+        </ul>
+        <p>
+            {% if project.date_description %}
+                {{ project.date_description }}
+            {% else %}
+                {{ project.start }} &dash; {{ project.end }}
+            {% endif %} {% if project.archived %}<em>(currently archived)</em>{% endif %}
+        </p>
+    </article>
+{% endfor %}
+
+{% comment %}
+status: development
+thumbnail_url_prefix: 
+Consider timeline type layouts: ref: https://www.w3schools.com/howto/howto_css_timeline.asp 
+{% endcomment %}

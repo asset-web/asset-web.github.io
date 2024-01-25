@@ -1,0 +1,9 @@
+Add missing projects:
+
+CJ Plumbing and PaintingFood Law Consult
+Food Law Consult
+Brigstow - used a graphic designer
+Climate archive - CI/CD and testing only
+Email archive - CI/CD and testing only
+Arima - NDA, Google Cloud, Django, MySQL, (react etc,), developed in a group, ML 
+UK LLC ??
