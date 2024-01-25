@@ -6,9 +6,16 @@ layout: page
 
 {% for project in site.projects reversed %}
     <article>
+        {% if project.thumbnail_url %}
+            {% if project.project_url %}
+                <a href="{{ project.project_url }}" title="External website - {{ project.name }}"><img src="{{ site.baseurl }}{{ project.thumbnail_url }}" alt="Screenshot" style="float:right;width:150px;margin-left:3em;"></a>
+            {% else %}
+                <img src="{{ site.baseurl }}{{ project.thumbnail_url }}" alt="Screenshot" style="float:right;width:150px;margin-left:3em;">
+            {%endif %}
+        {% endif %}
         <h2>{% if project.archived %}<i class="fa fa-archive" aria-hidden="true" title="Archived project"></i>{% endif %}
             {% if project.project_url %}
-                <a href="{{ project.project_url }}">{{ project.name }}</a>
+                <a href="{{ project.project_url }}" title="External website - {{ project.name }}">{{ project.name }}</a>
             {% else %}
                 {{ project.name }}
             {% endif %}
@@ -19,7 +26,7 @@ layout: page
             {% if project.open_source %}
                 <li>
                     {% if project.code_repo_url %}
-                        <i class="fa fa-code" aria-hidden="true"> <a href="{{ project.code_repo_url }}">Opensource</a>
+                        <i class="fa fa-code" aria-hidden="true"></i> <a href="{{ project.code_repo_url }}" title="External link">Opensource code repository</a>
                     {% else %}
                         <i class="fa fa-code" aria-hidden="true"></i> Opensource
                     {% endif %}
@@ -34,7 +41,7 @@ layout: page
                 {{ project.date_description }}
             {% else %}
                 {{ project.start }} &dash; {{ project.end }}
-            {% endif %} {% if project.archived %}<em>(currently in archival mode)</em>{% endif %}
+            {% endif %} {% if project.archived %}<em>(currently archived)</em>{% endif %}
         </p>
     </article>
 {% endfor %}
