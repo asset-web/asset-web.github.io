@@ -13,7 +13,7 @@ technologies:
 open_source: False
 code_repo_url: 
 status: past
-thumbnail_url: 
+thumbnail_url_prefix: 
 published: True
 ---
 Resurrected this lost website from static snapshots and repopulated a fresh WordPress website.

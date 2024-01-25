@@ -12,7 +12,7 @@ technologies:
 open_source: False
 code_repo_url: 
 status: production
-thumbnail_url: /assets/3kays.png
+thumbnail_url_prefix: /assets/3kays
 published: True
 ---
 A website for a female owned plant nursery growing fruit trees, house plants, flowers and vegetables.

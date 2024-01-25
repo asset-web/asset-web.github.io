@@ -12,7 +12,7 @@ technologies:
 open_source: False
 code_repo_url: 
 status: past
-thumbnail_url: 
+thumbnail_url_prefix: 
 published: True
 ---
 A not-for-profit website supporting a community group in Grenada.

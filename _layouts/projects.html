@@ -6,13 +6,14 @@ layout: page
 
 {% for project in site.projects reversed %}
     <article>
-        {% if project.thumbnail_url %}
+        {% if project.thumbnail_url_prefix %}
             {% if project.project_url %}
-                <a href="{{ project.project_url }}" title="External website - {{ project.name }}"><img src="{{ site.baseurl }}{{ project.thumbnail_url }}" alt="Screenshot" style="float:right;width:200px;margin-left:3em;"></a>
+                <a href="{{ project.project_url }}" title="External website - {{ project.name }}">{% include image.html %}</a>
             {% else %}
-                <img src="{{ site.baseurl }}{{ project.thumbnail_url }}" alt="Screenshot" style="float:right;width:200px;margin-left:3em;">
+                {% include image.html %}
             {%endif %}
         {% endif %}
+
         <h2>{% if project.archived %}<i class="fa fa-archive" aria-hidden="true" title="Archived project"></i>{% endif %}
             {% if project.project_url %}
                 <a href="{{ project.project_url }}" title="External website - {{ project.name }}">{{ project.name }}</a>
@@ -49,6 +50,6 @@ layout: page
 
 {% comment %}
 status: development
-thumbnail_url: 
+thumbnail_url_prefix: 
 Consider timeline type layouts: ref: https://www.w3schools.com/howto/howto_css_timeline.asp 
 {% endcomment %}

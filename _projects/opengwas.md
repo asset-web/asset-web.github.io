@@ -19,7 +19,7 @@ technologies:
 open_source: False
 code_repo_url: 
 status: production
-thumbnail_url: /assets/gwas.png
+thumbnail_url_prefix: /assets/gwas
 published: True
 ---
 <a href="https://gwas.mrcieu.ac.uk"><abbr title="Integrative Epidemiology Unit">IEU</abbr> open<abbr title="Genome-wide association studies">GWAS</abbr> project.</a>

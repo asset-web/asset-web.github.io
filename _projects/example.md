@@ -13,7 +13,7 @@ technologies:
 open_source: True
 code_repo_url: 
 status: development|production|past
-thumbnail_url: 
+thumbnail_url_prefix: 
 published: False
 ---
 Example project description

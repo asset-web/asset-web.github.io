@@ -15,7 +15,7 @@ technologies:
 open_source: False
 code_repo_url: 
 status: production
-thumbnail_url: /assets/tvl.png
+thumbnail_url_prefix: /assets/tvl
 published: True
 ---
 Migrated from a bespoke PHP website using a custom template system to using a static site generator.

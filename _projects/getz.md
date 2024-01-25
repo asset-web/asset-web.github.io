@@ -12,7 +12,7 @@ technologies:
 open_source: False
 code_repo_url: 
 status: past
-thumbnail_url: /assets/getz.png
+thumbnail_url_prefix: /assets/getz
 published: True
 ---
 Provided **web consultancy** and **supported WordPress hosting** for a research project's digital outputs, including branding, infographics and project website. Bespoke WordPress theme by [Benedict Wallis](https://benedict-wallis.com/) and graphic design by [Sam Gee](https://www.samgee.co.uk/).

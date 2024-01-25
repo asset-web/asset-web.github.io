@@ -20,7 +20,7 @@ technologies:
 open_source: False
 code_repo_url: 
 status: past
-thumbnail_url: 
+thumbnail_url_prefix: 
 published: True
 ---
 Previously part of a development team that redeveloped an online survey tool used primarily in Higher Education.

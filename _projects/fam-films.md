@@ -13,7 +13,7 @@ technologies:
 open_source: True
 code_repo_url: 
 status: production
-thumbnail_url: /assets/fam-films.png
+thumbnail_url_prefix: /assets/fam-films
 published: True
 ---
 Example project description

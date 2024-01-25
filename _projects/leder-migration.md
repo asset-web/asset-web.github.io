@@ -16,6 +16,6 @@ technologies:
 open_source: False
 code_repo_url: 
 status: past
-thumbnail_url: 
+thumbnail_url_prefix: 
 ---
 Part of a team packaging a suite of applications to be handed over to the NHS.
