@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
     # Run development Jekyll web server
     web:
