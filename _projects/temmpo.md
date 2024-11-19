@@ -1,6 +1,6 @@
 ---
 name: TeMMPo
-project_url: https://temmpo.org.uk
+project_url: 
 role: web developer and devops engineer
 start: 2015
 end: ongoing
