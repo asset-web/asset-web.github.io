@@ -12,6 +12,7 @@ technologies:
 - Django
 - Wagtail
 - NGINX
+- Redis
 - Kubernetes
 open_source: True
 code_repo_url: 
