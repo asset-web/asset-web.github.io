@@ -26,13 +26,15 @@ docker compose up -d
 docker compose exec web /src/script/buildtest  # Run tests locally
 ```
 
+Run dev server update bundler and then update a particular package, e.g. jekyll
+
 ```
 docker compose up -d
 docker compose exec web bundle update --bundler
 docker compose exec web bundle update jekyll
 ```
 
-### Example Jekyll development commands
+### Example Jekyll development commands when installed locally
 
  * Create new site with default theme
 
@@ -42,6 +44,7 @@ docker compose exec web bundle update jekyll
 
 		bundle exec jekyll serve
 
+	
 ### Build, test and deploy
 
 CI/CD jobs automate running the `script/buildtest` script which generates the site using Jekyll static site generator.  HTML validation and link checking is run against this output. Upon successfully merging a pull requests/commits to `master` the static website is deployed to a remote server hosted on an app on Digital Ocean.
