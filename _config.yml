@@ -39,10 +39,18 @@ minima:
   skin: dark
   # skin: solarized-dark
   social_links:
-    - { platform: github,  user_url: "https://github.com/asset-web" }
-    - { platform: bluesky, user_url: "https://bsky.app/profile/assetweb.bsky.social" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/assetweb/" }
-    - { platform: twitter, user_url: "https://twitter.com/assetweb" }
+    - title: GitHub
+      icon: github
+      url: "https://github.com/asset-web"
+    - title: Bluesky
+      icon: bluesky
+      url: "https://bsky.app/profile/assetweb.bsky.social"
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/assetweb/"
+    - title: X (formerly Twitter)
+      icon: x-twitter
+      url: "https://x.com/assetweb"
 
 author:
   name: Tessa Alexander

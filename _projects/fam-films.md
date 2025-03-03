@@ -1,12 +1,12 @@
 ---
 name: FAM Films CIC
-project_url: https://famfilmscommunity.com/
+project_url: 
 role: webmaster and hoster
 start: 2023
 end: 2024
 date_description: 
 research_project: False
-archived: False
+archived: True
 technologies: 
 - carrd.co
 - mailchimp
