@@ -2,4 +2,4 @@
 set -ev # halt script on error, show commands being run
 
 JEKYLL_ENV=production bundle exec jekyll build
-bundle exec htmlproofer ./_site --assume-extension --check-html --ignore-status-codes "999" --ignore-urls "/x.com/,/research-information.bris.ac.uk/"
+bundle exec htmlproofer ./_site --assume-extension --check-html --ignore-status-codes "999" --ignore-urls "/x.com/,/research-information.bris.ac.uk/,/3kaysnursery.gd/"
