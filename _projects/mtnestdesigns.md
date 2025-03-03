@@ -6,12 +6,12 @@ start: 2012
 end: ongoing
 date_description: 
 research_project: False
-archived: False
+archived: True
 technologies: 
 - WordPress
 open_source: False
 code_repo_url: 
-status: production
+status: past
 thumbnail_url_prefix: /assets/mtnestdesigns
 published: True
 ---
