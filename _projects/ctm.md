@@ -16,4 +16,4 @@ code_repo_url: https://github.com/asset-web/check_the_map
 status: development
 thumbnail_url_prefix: 
 ---
-A not-for-profit web resource. Developed for parents with children experieincing learning disabilities/difficulties, teachers and anyone working in Special Educational Needs.  Previously available at www.checkthemap.org.
+A not-for-profit web resource. Developed for parents with children experieincing learning disabilities/difficulties, teachers and anyone working in Special Educational Needs.  Previously available at [www.checkthemap.org - available on Internet Archive's way back machine](https://web.archive.org/web/20250000000000*/checkthemap.org).
