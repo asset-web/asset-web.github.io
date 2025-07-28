@@ -16,4 +16,4 @@ status: past
 thumbnail_url_prefix: /assets/fam-films
 published: True
 ---
-Example project description
+A light touch brouchure site for FAM Films CIC with mailing list integration
