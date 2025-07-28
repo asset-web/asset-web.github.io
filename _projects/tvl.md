@@ -12,8 +12,8 @@ technologies:
 - Markdown
 - Docker
 - Digital Ocean Apps
-open_source: False
-code_repo_url: 
+open_source: True
+code_repo_url: https://github.com/asset-web/tinevanlent.be/
 status: production
 thumbnail_url_prefix: /assets/tvl
 published: True
