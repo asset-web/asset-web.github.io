@@ -18,7 +18,7 @@ technologies:
 open_source: False
 code_repo_url: 
 status: production
-thumbnail_url_prefix: 
+thumbnail_url_prefix: /assets/south-asian-britain
 published: True
 ---
 The redevelopment and extension of the [existing Open University hosted Making Britain](https://www5.open.ac.uk/research-projects/making-britain/) web based historical database of the impact of South Asians in Britain.
