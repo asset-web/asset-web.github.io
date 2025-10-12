@@ -3,7 +3,7 @@ name: MT Nest Designs
 project_url: https://mtnestdesigns.co.uk
 role: web developer and hoster
 start: 2012
-end: ongoing
+end: 2024
 date_description: 
 research_project: False
 archived: True
