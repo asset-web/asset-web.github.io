@@ -18,6 +18,7 @@ technologies:
 - Azure
 - IIIF
 - GoAccess
+- Cypress
 open_source: False
 code_repo_url: 
 status: production
