@@ -14,7 +14,7 @@ technologies:
 - Apache
 - Redis
 - ClamAV
-- RHEL
+- CentOS & RHEL
 - Jenkins CI
 - GitHub actions
 - Vagrant
