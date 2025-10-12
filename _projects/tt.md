@@ -15,4 +15,4 @@ status: past
 thumbnail_url_prefix: /assets/tt
 published: True
 ---
-An AHRC Oxford University Funded Research Project impact WordPress site at the Oxford Research Centre in the Humanities (TORCH).
+An AHRC Oxford University Funded Research Project impact WordPress website at the Oxford Research Centre in the Humanities (TORCH).

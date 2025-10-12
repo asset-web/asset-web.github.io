@@ -3,10 +3,10 @@ name: TeMMPo
 project_url: https://www.temmpo.org.uk
 role: web developer and devops engineer
 start: 2015
-end: ongoing
+end: 2025
 date_description: 
 research_project: True
-archived: False
+archived: True
 technologies: 
 - Python
 - Django
@@ -14,14 +14,15 @@ technologies:
 - Apache
 - Redis
 - ClamAV
-- RHEL
+- CentOS & RHEL
 - Jenkins CI
 - GitHub actions
 - Vagrant
 - Docker
+- Cypress
 open_source: True
 code_repo_url: https://github.com/MRCIEU/temmpo
-status: production
+status: past
 thumbnail_url_prefix: /assets/temmpo-sankey
 published: True
 ---

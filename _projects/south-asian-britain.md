@@ -1,5 +1,5 @@
 ---
-name: South Asian Britain
+name: "South Asian Britain: Connected Histories"
 project_url: https://southasianbritain.org/
 role: web developer and devops engineer
 start: 2023
@@ -10,13 +10,15 @@ archived: False
 technologies: 
 - Python
 - Django
-- Wagtail
+- Wagtail CMS
 - Redis
 - NGINX
+- PostgreSQL
 - Kubernetes
 - Azure
 - IIIF
 - GoAccess
+- Cypress
 open_source: False
 code_repo_url: 
 status: production
