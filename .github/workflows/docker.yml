@@ -44,7 +44,7 @@ jobs:
           push: true
           tags: ${{ env.LATEST_TAG }}
       - name: Archive static files
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         if: ${{ ! startsWith(github.ref, 'refs/heads/master') }}
         with:
           name: jekyll-static-output
