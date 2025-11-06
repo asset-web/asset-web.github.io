@@ -1,4 +1,4 @@
-# Tessa Alexander - asset-web.co.uk
+# Tessa Alexander-Holmes - asset-web.co.uk
 
 Migrating static one homepage to Jekyll site to be hosted on GitHub pages and deployed using Travis CI.
 

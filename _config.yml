@@ -17,7 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Tessa Alexander
+title: Tessa Alexander-Holmes
 email: info@asset-web.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Dancer, cyclist, and opensource coder.
@@ -53,7 +53,7 @@ minima:
       url: "https://x.com/assetweb"
 
 author:
-  name: Tessa Alexander
+  name: Tessa Alexander-Holmes
   email: "info@asset-web.co.uk"
 
 header_pages:
