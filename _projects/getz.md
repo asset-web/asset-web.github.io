@@ -1,6 +1,6 @@
 ---
 name: GETZ Project
-project_url: https://getzproject.eu
+project_url:
 role: web developer and devops engineer
 start: 2018
 end: 2025
