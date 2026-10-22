@@ -48,6 +48,9 @@ minima:
     - title: LinkedIn
       icon: linkedin
       url: "https://www.linkedin.com/in/assetweb/"
+    - title: Mastodon
+      icon: mastodon
+      url: "https://mastodon.social/@assetweb"
     - title: X (formerly Twitter)
       icon: x-twitter
       url: "https://x.com/assetweb"
