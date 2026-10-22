@@ -15,44 +15,36 @@ cd asset-web/
 
 NB: Requires docker and docker compose to be installed locally
 
-Run tests locally
+### Run tests only
 
 ```bash
 docker build . -t web
 docker run --rm web
 ```
 
+### Run development server
+
 ```bash
 docker compose build
-docker compose up -d 
-docker compose exec web /src/script/buildtest  # Run tests locally
-```
-
-Run dev server update bundler and then update a particular package, e.g. jekyll
-
-```bash
 docker compose up -d
-docker compose exec web bundle update --bundler
-docker compose exec web bundle update jekyll
+
+# Run tests against current development enviroment
+docker compose exec web /src/script/buildtest  
 ```
 
-Update bundler to a specif version
+### Update bundler to a specifc version, update all gems, or a particular package, e.g. jekyll
 
 ```bash
-docker compose exec web bundle _2.7.2_ install
+# Update bundler to a specific version
+docker compose run --rm web bundle _2.7.2_ install
+
+#  All
+docker compose run --rm web bundle update
+
+# Single gem
+docker compose run --rm web bundle update jekyll
 ```
 
-### Example Jekyll development commands when installed locally
-
- * Create new site with default theme
-
-		jekyll new .
-
- * Serve development site
-
-		bundle exec jekyll serve
-
-	
 ### Build, test and deploy
 
 CI/CD jobs automate running the `script/buildtest` script which generates the site using Jekyll static site generator.  HTML validation and link checking is run against this output. Upon successfully merging a pull requests/commits to `master` the static website is deployed to a remote server hosted on an app on Digital Ocean.
