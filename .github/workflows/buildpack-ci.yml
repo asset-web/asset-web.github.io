@@ -17,10 +17,9 @@ jobs:
         uses: buildpack-ci/run-tests@v1
         env:
           JEKYLL_ENV: 'production'
-          APP_SUBDIR: ''
       - name: Archive static files
         uses: actions/upload-artifact@v7
         with:
           name: jekyll-static-output
-          path: _site
+          path: /app/_site
           retention-days: 1
