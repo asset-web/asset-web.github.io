@@ -4,6 +4,8 @@ multi-ecosystem-groups:
   environment:
     schedule:
       interval: "monthly"
+      day: "sunday"
+      time: "10:00"
     assignees:
       - "asset-web"
 
@@ -11,9 +13,13 @@ updates:
   - package-ecosystem: "bundler"
     multi-ecosystem-group: "environment"
     directory: "/"
+    patterns:
+      - "*"
   - package-ecosystem: "docker"
     multi-ecosystem-group: "environment"
     directory: "/"
+    patterns:
+      - "*"
     # Filter out major updates for  Docker image
     ignore:
       - dependency-name: "*"
@@ -21,3 +27,5 @@ updates:
   - package-ecosystem: "github-actions"
     multi-ecosystem-group: "environment"
     directory: "/"
+    patterns:
+      - "*"
