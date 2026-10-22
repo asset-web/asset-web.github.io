@@ -1,4 +1,4 @@
 # Rakefile
 task :test do
-  bash "/src/script/buildtest"
+  sh "/src/script/buildtest"
 end
