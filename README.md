@@ -8,19 +8,21 @@ Migrating static one homepage to Jekyll site to be hosted on GitHub pages and de
 ## Development
 
 Set up development site
-
-	git clone git@github.com:asset-web/asset-web.git
-	cd asset-web/
+```bash
+git clone git@github.com:asset-web/asset-web.git
+cd asset-web/
+```
 
 NB: Requires docker and docker compose to be installed locally
 
 Run tests locally
-```
+
+```bash
 docker build . -t web
 docker run --rm web
 ```
 
-```
+```bash
 docker compose build
 docker compose up -d 
 docker compose exec web /src/script/buildtest  # Run tests locally
@@ -28,10 +30,16 @@ docker compose exec web /src/script/buildtest  # Run tests locally
 
 Run dev server update bundler and then update a particular package, e.g. jekyll
 
-```
+```bash
 docker compose up -d
 docker compose exec web bundle update --bundler
 docker compose exec web bundle update jekyll
+```
+
+Update bundler to a specif version
+
+```bash
+docker compose exec web bundle _2.7.2_ install
 ```
 
 ### Example Jekyll development commands when installed locally
