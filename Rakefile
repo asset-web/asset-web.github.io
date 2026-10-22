@@ -1,5 +1,5 @@
 # Rakefile
 task :test do
   sh "bundle exec jekyll build"
-  sh "find . -name _site"
+  sh "ls -hal _site/**"
 end
