@@ -206,6 +206,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-seo-tag
   minima!
+  rake
   tzinfo-data
 
 RUBY VERSION
