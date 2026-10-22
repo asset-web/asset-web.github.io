@@ -1,4 +1,4 @@
 # Rakefile
 task :test do
-  sh "/src/script/buildtest"
+  sh "bundle exec jekyll build"
 end
