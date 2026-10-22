@@ -1,0 +1,19 @@
+name: Buildpack compatibility
+
+on:
+  push:
+    branches:
+      - 'master'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Test buildpack ability to create Jekyll site
+        uses: buildpack-ci/run-tests@v1
+        env:
+          JEKYLL_ENV: 'production'
