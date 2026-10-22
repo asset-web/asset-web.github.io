@@ -1,4 +1,4 @@
-name: Test 
+name: Buildpack compatibility
 
 on:
   push:
