@@ -54,6 +54,7 @@ minima:
     - title: X (formerly Twitter)
       icon: x-twitter
       url: "https://x.com/assetweb"
+  hide_site_feed_link: true
 
 author:
   name: Tessa Alexander-Holmes
@@ -66,8 +67,12 @@ header_pages:
 collections:
   projects:
     sort_by: start
+  # TODO: add default: research_project: True archived: False
 
-  # TODO:L add default: research_project: True archived: False
+# feed:
+#   collections:
+#     - projects
+#   posts_limit: 20
 
 # Exclude from processing.
 # The following items will not be processed, by default.
