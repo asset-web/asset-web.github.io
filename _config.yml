@@ -90,15 +90,13 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
   - script/
   - private_key
   - Rakefile
   - README.md
   - Dockerfile
   - docker-compose.yml
+  - todo.txt
 
 assetweb_version: 1.9.1
