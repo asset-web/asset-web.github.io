@@ -28,6 +28,7 @@ url: "https://assetweb.co.uk" # the base hostname & protocol for your site, e.g.
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 timezone: Europe/London
 lang: en
