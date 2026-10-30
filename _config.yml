@@ -96,5 +96,9 @@ exclude:
   - vendor/ruby/
   - script/
   - private_key
+  - Rakefile
+  - README.md
+  - Dockerfile
+  - docker-compose.yml
 
 assetweb_version: 1.9.1
