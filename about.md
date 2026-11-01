@@ -19,7 +19,7 @@ Research Software Engineer,
 ## Interests
 
 - opensource
-- continuous integration
+- continuous integration continuos deployment (CI/CD)
 - test driven development
 - reproducibility
 - accessibility
@@ -29,14 +29,15 @@ Research Software Engineer,
 
 - Python
 - Django
+- Wagtail
 - Flask
 - PHP
 - WordPress
+- Jekyll
 - HTML
 - JavaScript
 - CSS
 - Bootstrap
-- Go
 
 ## Web servers
 
@@ -46,29 +47,31 @@ Research Software Engineer,
 ## Databases
 
 - MySQL
-- Neo4J
 - PostgreSQL
+- Neo4J
 - ElasticSearch
 - Cassandra
 
 ## Tools
 
 - Docker
+- Kubernetes
+- Helm
 - Cypress
-- Gitlab CI/CD
-- Jenkins CI
 - Bitbucket Pipelines
 - GitHub Actions
+- Gitlab CI
+- Jenkins CI
 - Circle CI
 - Travis CI
 - Git
 - Slack
-- Puppet (configuration management)
+- Puppet
 - ICINGA
-- Vagrant
 
 ## Operating systems
 
-- CentOS
 - OSX
 - Ubuntu
+- RHEL
+- CentOS
