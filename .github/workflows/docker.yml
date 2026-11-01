@@ -34,7 +34,8 @@ jobs:
           tags: ${{ env.TEST_TAG }}
       - name: Build static site and run link checker
         run: |
-          docker run --rm ${{ env.TEST_TAG }}
+          mkdir _site
+          docker run -v ${{ github.workspace }}/_site:/src/_site --rm ${{ env.TEST_TAG }}
       - name: Proof HTML
         uses: anishathalye/proof-html@v2
         with:
