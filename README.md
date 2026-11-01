@@ -49,7 +49,7 @@ Update dockerfile and Gemfile.  Run the below to rebuild local Docker image
 and then update the Gemfile dependnecies.
 
 ```bash
-docker compose run --rm --build web bundle update
+docker compose run --rm --build web bundle update --all
 ```
 
 ### Updating using bundler
@@ -59,7 +59,7 @@ docker compose run --rm --build web bundle update
 docker compose run --rm web bundle _2.7.2_ install
 
 #  All
-docker compose run --rm web bundle update
+docker compose run --rm web bundle update --all
 
 # Single gem
 docker compose run --rm web bundle update jekyll
