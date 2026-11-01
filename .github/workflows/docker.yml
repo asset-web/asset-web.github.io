@@ -32,9 +32,13 @@ jobs:
           context: .
           load: true
           tags: ${{ env.TEST_TAG }}
-      - name: Test
+      - name: Build static site and run link checker
         run: |
           docker run --rm ${{ env.TEST_TAG }}
+      - name: Proof HTML
+        uses: anishathalye/proof-html@v2
+        with:
+          directory: _site
       - name: Build and push
         uses: docker/build-push-action@v7
         if: ${{ startsWith(github.ref, 'refs/heads/master') }}
@@ -43,10 +47,6 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: ${{ env.LATEST_TAG }}
-      - name: Proof HTML
-        uses: anishathalye/proof-html@v2
-        with:
-          directory: _site
       - name: Archive static files
         uses: actions/upload-artifact@v7
         if: ${{ startsWith(github.ref, 'refs/heads/master') }}
