@@ -1,0 +1,21 @@
+{
+    "default": true,
+    "first-line-h1": false,
+    "line-length": false,
+    "no-duplicate-heading": false,
+    "no-inline-html": {
+        "allowed_elements": [
+            "a",
+            "abbr",
+            "dl",
+            "dt",
+            "dd",
+            "summary",
+            "detail",
+            "img"
+        ]
+    },
+    "no-trailing-punctuation": false,
+    "ol-prefix": false,
+    "ul-indent": { "indent": 4 }
+}
