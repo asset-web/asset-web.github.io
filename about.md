@@ -7,12 +7,17 @@ permalink: /about/
 Web developer with experience in the Higher Education, Public, and Finance sectors.
 
 ## Employment
-Research Software Engineer, [Research IT](https://www.bristol.ac.uk/research-it/), [University of Bristol](https://www.bristol.ac.uk)
+
+Research Software Engineer,
+[Research IT](https://www.bristol.ac.uk/research-it/),
+[University of Bristol](https://www.bristol.ac.uk)
 
 ## Interview by TechSPARK
+
 [Interview by Renée Jacobs](https://www.techspark.co/blog/2020/10/22/profile-tessa-alexander/)
 
 ## Interests
+
 - opensource
 - continuous integration
 - test driven development
@@ -21,6 +26,7 @@ Research Software Engineer, [Research IT](https://www.bristol.ac.uk/research-it/
 - internationalisation
 
 ## Languages & frameworks
+
 - Python
 - Django
 - Flask
@@ -33,10 +39,12 @@ Research Software Engineer, [Research IT](https://www.bristol.ac.uk/research-it/
 - Go
 
 ## Web servers
+
 - NGINX
 - Apache
 
 ## Databases
+
 - MySQL
 - Neo4J
 - PostgreSQL
@@ -44,6 +52,7 @@ Research Software Engineer, [Research IT](https://www.bristol.ac.uk/research-it/
 - Cassandra
 
 ## Tools
+
 - Docker
 - Cypress
 - Gitlab CI/CD
@@ -59,6 +68,7 @@ Research Software Engineer, [Research IT](https://www.bristol.ac.uk/research-it/
 - Vagrant
 
 ## Operating systems
+
 - CentOS
 - OSX
 - Ubuntu
