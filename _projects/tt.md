@@ -1,5 +1,5 @@
 ---
-name: TRANSPORTATION TRANSFORMATION&#58; MIGRATION, TELEPORTATION, RAILWAYS
+name: Transportation Transformation&#58; Migration, Teleportation, and Railways
 project_url: https://transportation-transformation.co.uk
 role: web developer and hoster
 start: 2013
