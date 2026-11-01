@@ -1,7 +1,20 @@
 # CHANGELOG
 
-## [1.8.0] 2024-01-25
+## [2.0.0] 2026-11-01
+
 ### Changed
+
+- Ignore more non relevant files for static website output
+- Enable Sitemap (#110)
+- Add Mastodon social media link
+- Update name (nee Tessa Alexander)
+- Update projects
+- Add Bluesky social media link
+
+## [1.8.0] 2024-01-25
+
+### Changed
+
 - Upgrade theme
 - Upgrade build environment
 - Use dark theme mode
@@ -10,79 +23,113 @@
 - Remove legacy Travis CI config
 - Remove support for GitHub pages and secondary site hosting
 
-## [1.7.2] 2024-01-22
+## [1.7.2] 2024-01-22
+
 ### Changed
+
 - Update content
 
-## [1.7.1] 2024-01-22
+## [1.7.1] 2024-01-22
+
 ### Changed
+
 - Update content
 - Add GitHub action
 
-## [1.7.0] 2024-01-22
+## [1.7.0] 2024-01-22
+
 ### Changed
+
 - Content update
 - Update gems
 
-## [1.6.1] 2022-10-22
+## [1.6.1] 2022-10-22
+
 ### Changed
+
 - Content update
 
-## [1.6.0] 2022-03-16
+## [1.6.0] 2022-03-16
+
 ### Changed
+
 - #47 Streamline Travis build
 
-## [1.5.1] 2022-03-16
+## [1.5.1] 2022-03-16
+
 ### Changed
+
 - Update dependencies
 
 ## [1.5.0] 2020-09-04
+
 ### Changed
+
 - #34 Update gems
 - #32 Bug fix htmlproofer handling LinkedIn response code
 
 ## [1.4.1] 2020-08-08
+
 ### Changed
+
 - #30 Add LinkedIn icon
 
-## [1.4.0] 2020-08-08
+## [1.4.0] 2020-08-08
+
 ### Security
+
 - #31 Update dependencies
 
 ## [1.3.0] 2020-04-25
+
 ### Changed
+
 - #25 Update project page
 - #26 Add funding badge
 
 ## [1.2.0] 2020-04-25
+
 ### Changed
+
 - #23 Update project page
 
 ## [1.1.1] 2020-02-22
+
 ### Changed
+
 - #20 Resize portrait
 
 ## [1.1.0] 2020-02-22
+
 ### Changed
+
 - #18 Add image to home page
 - #17 Update dependencies
 - #16 Update project page
 
 ## [1.0.0] 2019-12-22
+
 ### Added
+
 - #12 Add change log and version information
+
 ### Changed
+
 - #9 Restrict primary deployment to pull requests only
 
 ## 2019-12-21
+
 ### Added
+
 - #7 Add testing to Travis CI build
 - #6 Deploy to primary hosting location to Travis CI
 
 ## 2019-12-14
+
 ### Added
+
 - #3 Publish using github pages
 - #2 Add Travis CI deployment
 - #1 Update project page content
 
-See https://github.com/asset-web/asset-web.github.io/commits/master
+See [https://github.com/asset-web/asset-web.github.io/commits/master]
