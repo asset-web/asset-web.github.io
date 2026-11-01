@@ -8,7 +8,7 @@ deployed using Travis CI.
 
 ## Development
 
-Set up development site
+Set up development site.
 
 ```bash
 git clone git@github.com:asset-web/asset-web.git
