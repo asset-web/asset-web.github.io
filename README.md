@@ -31,7 +31,8 @@ docker compose build
 docker compose up -d
 ```
 
-# Run tests against current development enviroment
+## Run tests against current development enviroment
+
 ```bash
 docker compose run --build --rm web /src/script/buildtest
 ```
