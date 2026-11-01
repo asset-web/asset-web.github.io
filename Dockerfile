@@ -1,4 +1,4 @@
-FROM ruby:3.4.10
+FROM ruby:3.4.12
 
 RUN apt-get update && apt-get install -y libcurl4-openssl-dev
 
