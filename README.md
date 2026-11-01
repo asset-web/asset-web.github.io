@@ -29,9 +29,11 @@ docker run --rm web
 ```bash
 docker compose build
 docker compose up -d
+```
 
 # Run tests against current development enviroment
-docker compose exec web /src/script/buildtest  
+```bash
+docker compose run --build --rm web /src/script/buildtest
 ```
 
 ### Updating Ruby
