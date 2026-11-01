@@ -32,6 +32,15 @@ docker compose up -d
 docker compose exec web /src/script/buildtest  
 ```
 
+### Updating Ruby
+
+Update dockerfile and Gemfile.  Run the below to rebuild local Docker image
+and then update the Gemfile dependnecies.
+
+```bash
+docker compose run --rm --build web bundle update
+```
+
 ### Update bundler to a specifc version, update all gems, or a particular package, e.g. jekyll
 
 ```bash
