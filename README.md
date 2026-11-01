@@ -37,6 +37,12 @@ docker compose up -d
 docker compose run --build --rm web /src/script/buildtest
 ```
 
+### Add check sums and normalise
+
+```bash
+docker compose run --rm web bundle lock --normalize-platforms --add-checksums
+```
+
 ### Updating Ruby
 
 Update dockerfile and Gemfile.  Run the below to rebuild local Docker image
