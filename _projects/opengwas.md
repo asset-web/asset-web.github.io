@@ -1,6 +1,6 @@
 ---
 name: IEU opengwas project
-project_url: https://gwas.mrcieu.ac.uk
+project_url:
 role: web developer and devops engineer
 start: 2014
 end: 2025
@@ -23,4 +23,4 @@ status: past
 thumbnail_url_prefix: /assets/gwas
 published: True
 ---
-<a href="https://gwas.mrcieu.ac.uk"><abbr title="Integrative Epidemiology Unit">IEU</abbr> open<abbr title="Genome-wide association studies">GWAS</abbr> project, website now superceeded by a replacement website.</a>
+<abbr title="Integrative Epidemiology Unit">IEU</abbr> open<abbr title="Genome-wide association studies">GWAS</abbr> project, website now superceeded by a replacement website.
