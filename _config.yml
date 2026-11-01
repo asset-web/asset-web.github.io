@@ -38,7 +38,6 @@ google_analytics: UA-4418195-32
 minima:
   date_format: "%d %M %Y"
   skin: dark
-  # skin: solarized-dark
   social_links:
     - title: GitHub
       icon: github
@@ -56,14 +55,12 @@ minima:
       icon: x-twitter
       url: "https://x.com/assetweb"
   hide_site_feed_link: true
-
-author:
-  name: Tessa Alexander-Holmes
-  email: "info@asset-web.co.uk"
-
-header_pages:
-  - about.md
-  - projects.md
+  nav_pages:
+    - about.md
+    - projects.md
+  author:
+    name: Tessa Alexander-Holmes
+    email: "info@asset-web.co.uk"
 
 collections:
   projects:
