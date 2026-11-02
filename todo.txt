@@ -1,3 +1,5 @@
+Refactor 404 error page to use valida HTML and external CSS
+
 Add missing projects:
 
 Brigstow - used a graphic designer
