@@ -12,4 +12,6 @@ RUN bundle install
 
 COPY . /src
 
+VOLUME /src/_site
+
 CMD ["bash", "/src/script/buildtest"]

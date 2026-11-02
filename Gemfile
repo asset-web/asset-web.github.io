@@ -11,7 +11,7 @@ ruby "3.4.12"
 
 gem "jekyll"
 
-gem "minima", git: "https://github.com/jekyll/minima.git" # , ref: "10124515953527c8990a2de99ae4ddb2a81ffee3"
+gem "minima", git: "https://github.com/jekyll/minima.git", ref: "4de3223"
 
 group :jekyll_plugins do
   gem "jekyll-feed"

@@ -32,9 +32,18 @@ jobs:
           context: .
           load: true
           tags: ${{ env.TEST_TAG }}
-      - name: Test
+      - name: Build static site and run link checker
         run: |
-          docker run --rm ${{ env.TEST_TAG }}
+          mkdir _site
+          docker run -v ${{ github.workspace }}/_site:/src/_site --rm ${{ env.TEST_TAG }}
+      - name: Proof HTML
+        uses: anishathalye/proof-html@v2
+        with:
+          directory: _site
+          disable_external: true
+          check_favicon: false
+          check_external_hash: false
+          validator_ignore: "Element “style” not allowed as child of element “div” in this context.*"
       - name: Build and push
         uses: docker/build-push-action@v7
         if: ${{ startsWith(github.ref, 'refs/heads/master') }}
