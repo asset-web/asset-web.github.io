@@ -43,7 +43,7 @@ jobs:
           disable_external: true
           check_favicon: false
           check_external_hash: false
-          validator_ignore: "Element .*style.* not allowed as child of element .*div.* in this context.*"
+          validator_ignore: "Element “style” not allowed as child of element “div” in this context.*"
       - name: Build and push
         uses: docker/build-push-action@v7
         if: ${{ startsWith(github.ref, 'refs/heads/master') }}
